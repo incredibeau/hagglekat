@@ -1,0 +1,98 @@
+---
+title: "Meow! final / Steal"
+author: "Haggle Kat"
+date: "October 22, 2015"
+output: html_document
+---
+
+`r hwrite("Hi Kittens! #CyberKat has some picks for you!", heading = 1)`
+
+hi, i'm #cyberkat!
+
+jocelyn's husband built me to search the web for good deals every day and post them here on hagglekat. hopefully you find something you like! meow.
+
+<3 <3 <3,
+
+#cyberkat
+
+ `r hwrite(paste("my search query for today:",retailquery[1,1],retailquery[1,2], sep = " "))`
+ 
+***
+`r hwrite("1.", heading = 1)`
+`r hwrite(final[1,1], heading = 1, link = final[1,2])`
+`r hwriteImage(final[1,3], link = final[1,2])`
+retailer: `r hwrite(final[1,7])`
+cost: `r hwrite(paste0("$",final[1,5]))`
+**discount: `r hwrite(paste0(format(100*final[1,9], digits=2),"%"))`**
+
+`r hwrite("2.", heading = 1)`
+`r hwrite(final[2,1], heading = 1, link = final[2,2])`
+`r hwriteImage(final[2,3], link = final[2,2])`
+retailer: `r hwrite(final[2,7])`
+cost: `r hwrite(paste0("$",final[2,5]))`
+**discount: `r hwrite(paste0(format(100*final[2,9], digits=2),"%"))`**
+
+`r hwrite("3.", heading = 1)`
+`r hwrite(final[3,1], heading = 1, link = final[3,2])`
+`r hwriteImage(final[3,3], link = final[3,2])`
+retailer: `r hwrite(final[3,7])`
+cost: `r hwrite(paste0("$",final[3,5]))`
+**discount: `r hwrite(paste0(format(100*final[3,9], digits=2),"%"))`**
+
+`r hwrite("4.", heading = 1)`
+`r hwrite(final[4,1], heading = 1, link = final[4,2])`
+`r hwriteImage(final[4,3], link = final[4,2])`
+retailer: `r hwrite(final[4,7])`
+cost: `r hwrite(paste0("$",final[4,5]))`
+**discount: `r hwrite(paste0(format(100*final[4,9], digits=2),"%"))`**
+
+`r hwrite("5.", heading = 1)`
+`r hwrite(final[5,1], heading = 1, link = final[5,2])`
+`r hwriteImage(final[5,3], link = final[5,2])`
+retailer: `r hwrite(final[5,7])`
+cost: `r hwrite(paste0("$",final[5,5]))`
+**discount: `r hwrite(paste0(format(100*final[5,9], digits=2),"%"))`**
+
+`r hwrite("6.", heading = 1)`
+`r hwrite(final[6,1], heading = 1, link = final[6,2])`
+`r hwriteImage(final[6,3], link = final[6,2])`
+retailer: `r hwrite(final[6,7])`
+cost: `r hwrite(paste0("$",final[6,5]))`
+**discount: `r hwrite(paste0(format(100*final[6,9], digits=2),"%"))`**
+
+`r hwrite("7.", heading = 1)`
+`r hwrite(final[7,1], heading = 1, link = final[7,2])`
+`r hwriteImage(final[7,3], link = final[7,2])`
+retailer: `r hwrite(final[7,7])`
+cost: `r hwrite(paste0("$",final[7,5]))`
+**discount: `r hwrite(paste0(format(100*final[7,9], digits=2),"%"))`**
+
+`r hwrite("8.", heading = 1)`
+`r hwrite(final[8,1], heading = 1, link = final[8,2])`
+`r hwriteImage(final[8,3], link = final[8,2])`
+retailer: `r hwrite(final[8,7])`
+cost: `r hwrite(paste0("$",final[8,5]))`
+**discount: `r hwrite(paste0(format(100*final[8,9], digits=2),"%"))`**
+
+`r hwrite("9.", heading = 1)`
+`r hwrite(final[9,1], heading = 1, link = final[9,2])`
+`r hwriteImage(final[9,3], link = final[9,2])`
+retailer: `r hwrite(final[9,7])`
+cost: `r hwrite(paste0("$",final[9,5]))`
+**discount: `r hwrite(paste0(format(100*final[9,9], digits=2),"%"))`**
+
+`r hwrite("10.", heading = 1)`
+`r hwrite(final[10,1], heading = 1, link = final[10,2])`
+`r hwriteImage(final[10,3], link = final[10,2])`
+retailer: `r hwrite(final[10,7])`
+cost: `r hwrite(paste0("$",final[10,5]))`
+**discount: `r hwrite(paste0(format(100*final[10,9], digits=2),"%"))`**
+
+
+be sure to check back tomorrow!
+
+meow.
+
+xoxox
+
+#cyberkat
